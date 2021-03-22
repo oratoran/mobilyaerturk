@@ -4,7 +4,7 @@
 </script>
 <script context="module">
 	export function preload() {
-		return this.fetch(`./proje/_projeler.js`).then(r => r.json()).then(posts => {
+		return this.fetch(`proje.json`).then(r => r.json()).then(posts => {
 			return { posts };
 		});
 	}

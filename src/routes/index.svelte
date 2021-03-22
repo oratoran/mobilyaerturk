@@ -3,6 +3,7 @@
 	import { onMount } from 'svelte';
 	import Glide from '@glidejs/glide';
 	import '@glidejs/glide/dist/css/glide.core.min.css';
+import RecentProjects from '../components/RecentProjects.svelte';
 
 	// import '@glidejs/glide/dist/css/glide.theme.min.css';
 
@@ -110,7 +111,7 @@
 
 <script context="module">
 	export function preload() {
-		return this.fetch(`./proje.json`).then(r => r.json()).then(posts => {
+		return this.fetch(`proje.json`).then(r => r.json()).then(posts => {
 			return { posts };
 		});
 	}
@@ -135,3 +136,5 @@
 	  </div>
 	</div>
 </section>
+
+<RecentProjects />
