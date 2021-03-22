@@ -1,26 +1,17 @@
-
 <script>
-	export let posts;
+	export let limit = 20;
+	import posts from '../routes/proje/_projeler.js';
 </script>
-<script context="module">
-	export function preload() {
-		return this.fetch(`proje.json`).then(r => r.json()).then(posts => {
-			return { posts };
-		});
-	}
-</script>
-
-
 
 <section class="bg-gray-100">
 	<div class="container mx-auto px-6 py-20">
 	  <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">
-		Bitirdiğimiz Projeler
+		Bitirdiğimiz Projeler {limit}
 	  </h2>
 	  <div class="flex flex-wrap ">
-		{#each posts as post}
+		{#each posts.slice(0, limit) as post, i}
 		<div class="w-full md:w-1/3 px-2 mb-4">
-		  <div class="bg-white rounded shadow py-2 h-full">
+		  <div class="bg-white rounded shadow py-0 h-full">
 			<figure class="">
 			  <a href="proje/{post.slug}" title="{post.title}"><img src="{post.image}" class="border-1 mx-auto" alt="{post.title}"></a>
 			</figure>
