@@ -2,7 +2,7 @@
 
 
 <div class=" p-5 h-30 relative opacity-50  m-[90px]">
-    <p class="text-center text-3xl font-serif ...">ERTÜRK MOBİLYA</p>
+    <p class="text-center text-3xl font-serif ...">ERTÜRK MOBİLYA TEST</p>
     <p class="text-center text-1xl font-serif ... p-2 italic" >1970'den günümüze işimizi tutku ile yapıyoruz..</p>
 </div>
 
