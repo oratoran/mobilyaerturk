@@ -9,8 +9,6 @@
         <ul class="social-links items-center flex justify-center">
             <li><a href="/"><i class="fa fa-facebook list-none mx-6 hover:text-blue-600 delay-100 duration-700"></i></a></li>
             <li><a href="/"><i class="fa fa-instagram list-none mx-6 hover:text-pink-600 delay-100 duration-700"></i></a></li>
-            <li><a href="/"><i class="fa fa-youtube list-none mx-6 hover:text-red-600 delay-100 duration-700"></i></a></li>
-            <li><a href="/"><i class="fa fa-twitter list-none mx-6 hover:text-blue-700 delay-100 duration-700 "></i></a></li>
         </ul>
     </div>
     <div class="footer-bottom text-center">
