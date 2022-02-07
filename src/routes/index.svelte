@@ -65,3 +65,42 @@
 </div>
 </div>
 
+   
+<div class="container flex  text-center  mx-auto ">
+  <div class="relative p-2  mb-10 b ">
+  <img src="my_homes_hotel_pendik.jpeg" alt="" class="rounded-lg ...">
+  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">MYY Homes Hotel - Pendik</h2>
+
+</div>
+
+<div class="relative p-2 mb-10">
+  <img src="grand_korfez_hotel_erturkmobilya.jpeg" alt="" class="rounded-lg ...">
+  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">Grand Körfez Hotel - Gebze</h2>
+
+</div>
+<div class="relative p-2 mb-10">
+  <img src="sisli_vizon_hotel_mobilya_dekorasyon_erturk_mobilya.jpeg" alt="" class="rounded-lg ...">
+  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">Vizon Hotel Şişli</h2>
+  
+</div>
+</div>
+
+<div class="container flex  text-center  mx-auto ">
+  <div class="relative p-2  mb-10 b ">
+  <img src="salon_serenay_erturk_mobilya.jpeg" alt="" class="rounded-lg ...">
+  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">Serenay Düğün Salonu  İçerenköy</h2>
+
+</div>
+
+<div class="relative p-2 mb-10">
+  <img src="old_city_hotel_sultanahmet_istanbul_mobilya_erturk.jpeg" alt="" class="rounded-lg ...">
+  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">Old City Hotel - Sultanahmet</h2>
+
+</div>
+<div class="relative p-2 mb-10">
+  <img src="sisli_vizon_hotel_mobilya_dekorasyon_erturk_mobilya.jpeg" alt="" class="rounded-lg ...">
+  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">Vizon Hotel Şişli</h2>
+  
+</div>
+</div>
+
