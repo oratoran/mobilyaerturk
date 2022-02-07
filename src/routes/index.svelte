@@ -49,18 +49,18 @@
 <div class="container flex  text-center  mx-auto ">
   <div class="relative p-2  mb-10 b ">
   <img src="/proje1.png" alt="" class="rounded-lg ...">
-  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">Asia Artemis Suite</h2>
+  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">Asia Artemis Suite <br> Ataşehir</h2>
 
 </div>
 
 <div class="relative p-2 mb-10">
   <img src="lamec.jpeg" alt="" class="rounded-lg ...">
-  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">Lamec Hotel</h2>
+  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">Lamec Hotel <br> Gebze</h2>
 
 </div>
 <div class="relative p-2 mb-10">
   <img src="retaj.jpeg" alt="" class="rounded-lg ...">
-  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">Retaj Termal Hotel</h2>
+  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">Retaj Termal Hotel <br> Yalova</h2>
   
 </div>
 </div>
@@ -69,18 +69,18 @@
 <div class="container flex  text-center  mx-auto ">
   <div class="relative p-2  mb-10 b ">
   <img src="my_homes_hotel_pendik.jpeg" alt="" class="rounded-lg ...">
-  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">MYY Homes Hotel - Pendik</h2>
+  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">MYY Homes Hotel <br> Pendik</h2>
 
 </div>
 
 <div class="relative p-2 mb-10">
   <img src="grand_korfez_hotel_erturkmobilya.jpeg" alt="" class="rounded-lg ...">
-  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">Grand Körfez Hotel - Gebze</h2>
+  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">Grand Körfez Hotel <br> Gebze</h2>
 
 </div>
 <div class="relative p-2 mb-10">
   <img src="sisli_vizon_hotel_mobilya_dekorasyon_erturk_mobilya.jpeg" alt="" class="rounded-lg ...">
-  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">Vizon Hotel Şişli</h2>
+  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">Vizon Hotel <br>Şişli</h2>
   
 </div>
 </div>
@@ -88,18 +88,18 @@
 <div class="container flex  text-center  mx-auto ">
   <div class="relative p-2  mb-10 b ">
   <img src="salon_serenay_erturk_mobilya.jpeg" alt="" class="rounded-lg ...">
-  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">Serenay Düğün Salonu  İçerenköy</h2>
+  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">Serenay Düğün Salonu <br> İçerenköy</h2>
 
 </div>
 
 <div class="relative p-2 mb-10">
   <img src="old_city_hotel_sultanahmet_istanbul_mobilya_erturk.jpeg" alt="" class="rounded-lg ...">
-  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">Old City Hotel - Sultanahmet</h2>
+  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">Old City Hotel <br> Sultanahmet</h2>
 
 </div>
 <div class="relative p-2 mb-10">
-  <img src="sisli_vizon_hotel_mobilya_dekorasyon_erturk_mobilya.jpeg" alt="" class="rounded-lg ...">
-  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">Vizon Hotel Şişli</h2>
+  <img src="asia_royal_suite_maltepe_mobilya_erturk.jpeg" alt="" class="rounded-lg ...">
+  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ...">Asia Royal Suite Hotel Maltepe</h2>
   
 </div>
 </div>

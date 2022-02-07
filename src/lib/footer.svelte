@@ -3,7 +3,7 @@
 
 
 
-<footer class="h-auto w-full font-serif text-white leading-[3rem] bg-gray-800 opacity-60 item">
+<footer class="h-auto w-full font-serif text-white leading-[3rem] bg-gray-800 opacity-60 item bottom-0">
     <div class="footer-content flex items-center justify-center flex-col">
         <h3 class="bottom-0"> ERTÜRK MOBİLYA</h3>
         <ul class="social-links items-center flex justify-center">
