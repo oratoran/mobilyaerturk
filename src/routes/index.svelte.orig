@@ -11,9 +11,15 @@
 
   </script>
 
+<<<<<<< HEAD
+  <section class="w-[1200px] mx-auto">
+  <Swiper
+    spaceBetween={0}
+=======
   <section class="w-full md:w-[1200px] mx-auto">
   <Swiper
     spaceBetween={50}
+>>>>>>> 26767c6d31bf0bfc752fe61709a9d61e80609ceb
     slidesPerView={1}
     modules={[Navigation, Pagination, Scrollbar]}
     navigation
@@ -29,9 +35,44 @@
   </Swiper>
 </section>
 
+<<<<<<< HEAD
+<div class=" p-5 h-30 relative opacity-50  m-[90px]">
+    <p class="text-center text-3xl font-serif ...">ERTÜRK MOBİLYA</p>
+    <p class="text-center text-1xl font-serif ... p-2 italic" >1970'den günümüze işimizi tutku ile yapıyoruz..</p>
+</div>
+
+
+<div class="container mx-auto flex space-x-4 ... p-18 h-111  ">
+    <div class="relative self-end">
+      <img src="mimari_planlama2.png" class="card-img-top rounded-full" alt="...">
+      <div class="mx-8 ...">
+        <h5 class="text-center m-2 opacity-60 font-serif ... text-2xl mt-6 bg-gray-100 text-black-200 rounded-full ...">Mimari Planlama</h5>
+      </div>
+    </div>
+    <div class="relative self-top">
+      <img src="mobilya_uretim.jpeg" class="rounded-full" alt="...">
+      <div class="mx-8 ...">
+        <h5 class="text-center text-2xl mt-6 font-serif ...
+        bg-gray-100 opacity-60 text-black-200 rounded-full ...">Mobilya Üretim</h5>
+      </div>
+    </div>
+    <div class="relative self-end">
+      <img src="montaj.jpeg" class="card-img-top rounded-full" alt="...">
+      <div class="mx-8 ...">
+        <h5 class="text-center m-2 opacity-60 font-serif ... text-2xl mt-6 bg-gray-100 text-black-200 rounded-full ...">Montaj</h5>    
+      </div>
+    </div>
+</div>
+
+<section class="" id="middle-section">
+  <div class=" w-full text-center  font-roboto mt-20  border pr-48 pl-48 opacity-70 text-black-200">
+    <p class="font-roboto mt-2 mb-2 italic opacity-70 text-black-200">1970’den günümüze sürekli güncellenen altyapısı, 1000m2 üretim alanına sahip atölyemizde kaliteli mobilya ürünleri üretmekteyiz.
+
+    50 yıla yakın tecrübesiyle, banka, otel, zincir cafe ve restaurant dekorasyonlarıyla birlikte, mutfak, banyo, ev dekorasyonu ve tadilat işlerini de müşteri beklentilerine uygun olarak başarıyla gerçekleştirmekteyiz.
+=======
 <div class=" p-16">
     <p class="text-center text-3xl font-serif text-zinc-600">ERTÜRK MOBİLYA</p>
-    <p class="text-center text-1xl font-serif p-2 italic" >1970'den günümüze işimizi tutku ile yapıyoruz...</p>
+    <p class="text-center text-1xl font-serif p-2 italic" >1970'den günümüze işimizi tutku ile yapıyoruz..</p>
 </div>
 
 
@@ -56,6 +97,7 @@
 
     <p>    50 yıla yakın tecrübesiyle, banka, otel, zincir cafe ve restaurant dekorasyonlarıyla birlikte, mutfak, banyo, ev dekorasyonu ve tadilat işlerini de müşteri beklentilerine uygun olarak başarıyla gerçekleştirmekteyiz.
     </p>
+>>>>>>> 26767c6d31bf0bfc752fe61709a9d61e80609ceb
     
 <p>    İşlevsellik, kalite ve müşteri memnuniyetini ilke edinen firmamız yaşam alanlarına mutluluk getirmeye devam etmektedir.
 </p>  
