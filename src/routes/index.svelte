@@ -1,5 +1,33 @@
- <div class="bg-[url('tasarim.jpg')] mt-0 bg-no-repeat bg-cover bg-left h-111 ..."></div>
+<script>
+  // Import Swiper Svelte components
+  import { Navigation, Pagination, Scrollbar } from 'swiper';
+  import { Swiper, SwiperSlide } from 'swiper/svelte';
 
+  // Import Swiper styles
+  import 'swiper/css';
+  import 'swiper/css/navigation';
+  import 'swiper/css/pagination';
+  import 'swiper/css/scrollbar';
+
+  </script>
+
+  <section class="w-[1200px] mx-auto">
+  <Swiper
+    spaceBetween={0}
+    slidesPerView={1}
+    modules={[Navigation, Pagination, Scrollbar]}
+    navigation
+    pagination={{ clickable: true }}
+    scrollbar={{ draggable: true }}
+    on:slideChange={() => console.log('slide change')}
+    on:swiper={(e) => console.log(e.detail[0])}
+  >
+    <SwiperSlide><img src="/erturk_mobilya_uretim_slider_1.jpg" alt="Slider 1"></SwiperSlide>
+    <SwiperSlide><img src="/erturk_mobilya_uretim_slider_2.jpg" alt="Slider 2"></SwiperSlide>
+    <SwiperSlide><img src="/erturk_mobilya_uretim_slider_3.jpg" alt="Slider 3"></SwiperSlide>
+
+  </Swiper>
+</section>
 
 <div class=" p-5 h-30 relative opacity-50  m-[90px]">
     <p class="text-center text-3xl font-serif ...">ERTÜRK MOBİLYA</p>
