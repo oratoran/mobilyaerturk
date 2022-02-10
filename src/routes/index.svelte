@@ -1,6 +1,6 @@
 <script>
   // Import Swiper Svelte components
-  import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+  import { Navigation, Pagination, Scrollbar } from 'swiper';
   import { Swiper, SwiperSlide } from 'swiper/svelte';
 
   // Import Swiper styles
@@ -15,7 +15,7 @@
   <Swiper
     spaceBetween={50}
     slidesPerView={1}
-    modules={[Navigation, Pagination, Scrollbar, A11y]}
+    modules={[Navigation, Pagination, Scrollbar]}
     navigation
     pagination={{ clickable: true }}
     scrollbar={{ draggable: true }}
