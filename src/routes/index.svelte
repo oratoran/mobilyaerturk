@@ -38,20 +38,20 @@
 <div class="flex flex-col md:flex-row text-center px-6">
   <div class="px-4 pb-16 md:pb-4">
     <img class="rounded-full" src="/mimari_planlama2.png" alt="">
-    <h3 class="text-2xl text-zinc-600 font-serif">Mimari Planlama</h3>
+    <h3 class="text-2xl text-zinc-600 font-serif mt-4">Mimari Planlama</h3>
   </div>
   <div class="px-4 pb-16 md:pb-4">
     <img class="rounded-full" src="/mobilya_uretim.jpeg" alt="">
-    <h3 class="text-2xl text-zinc-600 font-serif">Mobilya Üretim</h3>
+    <h3 class="text-2xl text-zinc-600 font-serif mt-4">Mobilya Üretim</h3>
   </div>
   <div class="px-4 pb-16 md:pb-4">
     <img class="rounded-full" src="/montaj.jpeg" alt="">
-    <h3 class="text-2xl  text-zinc-600 font-serif">Montaj</h3>
+    <h3 class="text-2xl  text-zinc-600 font-serif mt-4">Montaj</h3>
   </div>
 </div>
 
 <section class="mt-6 mb-6 p-6" id="middle-section">
-  <div class=" ">
+  <div class="">
     <p>1970’den günümüze sürekli güncellenen altyapısı, 1000m2 üretim alanına sahip atölyemizde kaliteli mobilya ürünleri üretmekteyiz.</p>
 
     <p>    50 yıla yakın tecrübesiyle, banka, otel, zincir cafe ve restaurant dekorasyonlarıyla birlikte, mutfak, banyo, ev dekorasyonu ve tadilat işlerini de müşteri beklentilerine uygun olarak başarıyla gerçekleştirmekteyiz.
@@ -68,24 +68,11 @@
   <a href="/projeler">Tümü</a>
 </div>
 
-<div class="flex flex-col md:flex-row text-center justify-items-center space-x-10  px-6">
-  <div class="basis-1/2 md:basis-1/3">
-    <img class="" src="/mimari_planlama2.png" alt="">
-    <h3 class="text-2xl text-zinc-600 font-serif">Mimari Planlama</h3>
-  </div>
-  <div class="basis-1/2 md:basis-1/3">
-    <img class="" src="/mobilya_uretim.jpeg" alt="">
-    <h3 class="text-2xl text-zinc-600 font-serif">Mobilya Üretim</h3>
-  </div>
-  <div class="basis-1/2 md:basis-1/3">
-    <img class="" src="/montaj.jpeg" alt="">
-    <h3 class="text-2xl  text-zinc-600 font-serif">Montaj</h3>
-  </div>
-</div>
 
 
-<div class="container flex  text-center  mx-auto ">
-  <div class="relative p-2  mb-10 b ">
+
+<div class="container flex flex-col md:flex-row text-center  mx-auto ">
+  <div class="relative p-2  mb-10 ">
   <img src="/proje1.png" alt="" class="rounded-lg ">
   <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ">Asia Artemis Suite <br> Ataşehir</h2>
 
@@ -104,7 +91,7 @@
 </div>
 
    
-<div class="container flex  text-center  mx-auto ">
+<div class="container flex flex-col md:flex-row text-center  mx-auto ">
   <div class="relative p-2  mb-10 b ">
   <img src="my_homes_hotel_pendik.jpeg" alt="" class="rounded-lg ">
   <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ">MYY Homes Hotel <br> Pendik</h2>
@@ -123,7 +110,7 @@
 </div>
 </div>
 
-<div class="container flex  text-center  mx-auto ">
+<div class="container flex flex-col md:flex-row text-center  mx-auto ">
   <div class="relative p-2  mb-10 b ">
   <img src="salon_serenay_erturk_mobilya.jpeg" alt="" class="rounded-lg ">
   <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ">Serenay Düğün Salonu <br> İçerenköy</h2>
@@ -137,7 +124,7 @@
 </div>
 <div class="relative p-2 mb-10">
   <img src="asia_royal_suite_maltepe_mobilya_erturk.jpeg" alt="" class="rounded-lg ">
-  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ">Asia Royal Suite Hotel Maltepe</h2>
+  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ">Asia Royal Suite Hotel <br> Maltepe</h2>
   
 </div>
 </div>
@@ -147,3 +134,5 @@
     @apply pt-2 pb-2
   }
 </style>
+
+
