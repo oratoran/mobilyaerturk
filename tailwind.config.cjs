@@ -3,11 +3,7 @@ const config = {
 
   theme: {
 
-    extend: {
-      spacing: {
-        '111':'36rem',
-      }
-    },
+    extend: {},
   },
 
   plugins: [],
