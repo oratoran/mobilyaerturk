@@ -1,8 +1,3 @@
-<!-- <footer class="text-center bg-gray-700 text-amber-400  bottom-0 w-full">Copyright 2022</footer> -->
-
-
-
-
 <footer class="h-auto w-full font-serif text-white leading-[3rem] bg-gray-800 opacity-60 item bottom-0">
     <div class="footer-content flex items-center justify-center flex-col">
         <h3 class="bottom-0"> ERTÜRK MOBİLYA</h3>
@@ -15,5 +10,3 @@
         <p>Copyright &copy;2022 / Designed by <span> A Solutions</span></p>
     </div>
 </footer>
-
-

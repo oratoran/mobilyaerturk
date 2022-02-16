@@ -1,4 +1,6 @@
 <script>
+  import Projeler from '$lib/PortfolioList.svelte';
+
   // Import Swiper Svelte components
   import { Navigation, Pagination, Scrollbar } from 'swiper';
   import { Swiper, SwiperSlide } from 'swiper/svelte';
@@ -9,9 +11,9 @@
   import 'swiper/css/pagination';
   import 'swiper/css/scrollbar';
 
-  </script>
+</script>
 
-  <section class="w-full md:w-[1200px] mx-auto">
+<section class="w-full md:w-[1200px] mx-auto">
   <Swiper
     spaceBetween={50}
     slidesPerView={1}
@@ -68,71 +70,4 @@
   <a href="/projeler">Tümü</a>
 </div>
 
-
-
-
-<div class="container flex flex-col md:flex-row text-center  mx-auto ">
-  <div class="relative p-2  mb-10 ">
-  <img src="/proje1.png" alt="" class="rounded-lg ">
-  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ">Asia Artemis Suite <br> Ataşehir</h2>
-
-</div>
-
-<div class="relative p-2 mb-10">
-  <img src="lamec.jpeg" alt="" class="rounded-lg ">
-  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ">Lamec Hotel <br> Gebze</h2>
-
-</div>
-<div class="relative p-2 mb-10">
-  <img src="retaj.jpeg" alt="" class="rounded-lg ">
-  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ">Retaj Termal Hotel <br> Yalova</h2>
-  
-</div>
-</div>
-
-   
-<div class="container flex flex-col md:flex-row text-center  mx-auto ">
-  <div class="relative p-2  mb-10 b ">
-  <img src="myy-homes-pendik/myy_homes_pendik_mobilya_erturk_1.jpeg" alt="" class="rounded-lg ">
-  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ">MYY Homes Hotel <br> Pendik</h2>
-
-</div>
-
-<div class="relative p-2 mb-10">
-  <img src="grand-korfez-hotel-gebze/grand_korfez_hotel_gebze_4.jpeg" alt="" class="rounded-lg ">
-  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ">Grand Körfez Hotel <br> Gebze</h2>
-
-</div>
-<div class="relative p-2 mb-10">
-  <img src="sisli_vizon_hotel_mobilya_dekorasyon_erturk_mobilya.jpeg" alt="" class="rounded-lg ">
-  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ">Vizon Hotel <br>Şişli</h2>
-  
-</div>
-</div>
-
-<div class="container flex flex-col md:flex-row text-center  mx-auto ">
-  <div class="relative p-2  mb-10 b ">
-  <img src="salon_serenay_erturk_mobilya.jpeg" alt="" class="rounded-lg ">
-  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ">Serenay Düğün Salonu <br> İçerenköy</h2>
-
-</div>
-
-<div class="relative p-2 mb-10">
-  <img src="old_city_hotel_sultanahmet_istanbul_mobilya_erturk.jpeg" alt="" class="rounded-lg ">
-  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ">Old City Hotel <br> Sultanahmet</h2>
-
-</div>
-<div class="relative p-2 mb-10">
-  <img src="asia_royal_suite_maltepe_mobilya_erturk.jpeg" alt="" class="rounded-lg ">
-  <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ">Asia Royal Suite Hotel <br> Maltepe</h2>
-  
-</div>
-</div>
-
-<style>
-  p {
-    @apply pt-2 pb-2
-  }
-</style>
-
-
+<Projeler />
