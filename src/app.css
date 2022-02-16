@@ -2,3 +2,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities {
+    @variants responsive {
+      .masonry {
+        column-count: 3;
+        column-gap: 1.5em;
+      }
+      .break-inside {
+        break-inside: avoid;
+      }
+    }
+  }

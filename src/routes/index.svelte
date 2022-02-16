@@ -93,13 +93,13 @@
    
 <div class="container flex flex-col md:flex-row text-center  mx-auto ">
   <div class="relative p-2  mb-10 b ">
-  <img src="my_homes_hotel_pendik.jpeg" alt="" class="rounded-lg ">
+  <img src="myy-homes-pendik/myy_homes_pendik_mobilya_erturk_1.jpeg" alt="" class="rounded-lg ">
   <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ">MYY Homes Hotel <br> Pendik</h2>
 
 </div>
 
 <div class="relative p-2 mb-10">
-  <img src="grand_korfez_hotel_erturkmobilya.jpeg" alt="" class="rounded-lg ">
+  <img src="grand-korfez-hotel-gebze/grand_korfez_hotel_gebze_4.jpeg" alt="" class="rounded-lg ">
   <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif ">Grand Körfez Hotel <br> Gebze</h2>
 
 </div>
