@@ -1,13 +1,14 @@
 <script>
   import "../app.css";
-  import Header from "$lib/Header.svelte";
-  import Footer from "$lib/Footer.svelte";
+
+  import Header from "$lib/SiteHeader.svelte";
+  import Footer from "$lib/SiteFooter.svelte";
     
 </script>
 
-<Header/>
+<Header />
 
 <slot /> 
 
 
-<Footer/>
+<Footer />
