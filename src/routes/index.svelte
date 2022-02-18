@@ -11,6 +11,8 @@
   import 'swiper/css/pagination';
   import 'swiper/css/scrollbar';
 
+  let limit = 3;
+
 </script>
 
 <section class="w-full md:w-[1200px] mx-auto">
@@ -67,7 +69,7 @@
 
 <div class="p5 h-30 relative opacity-50  m-[90px] text-center">
   <h3 class="text-3xl pb-4">Bitirdiğimiz Projeler</h3>
-  <a href="/projeler">Tümü</a>
+  <a href="/projeler" class="underline">Tümünü görmek için tıklayınız</a>
 </div>
 
-<Projeler />
+<Projeler {limit}/>

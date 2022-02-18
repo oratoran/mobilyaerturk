@@ -1,56 +1,98 @@
-<div class="container flex flex-col md:flex-row text-center  mx-auto ">
-    <div class="relative p-2  mb-10 ">
-        <a href="/asia-artemis-hotel-atasehir"> <img src="/proje1.png" alt="" class="rounded-lg "></a>
-    <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif "><a href="/asia-artemis-hotel-atasehir"> Asia Artemis Suite <br> Ataşehir</a></h2>
+<script>
+
+export let limit = 12
+
+let projects = [
+
+  {
+    projectTitle:"Şişli Vizon Hotel",
+    projectSubtitle:"Şişli", 
+    projectImage:"sisli_vizon_hotel_mobilya_dekorasyon_erturk_mobilya.jpeg", 
+    projectLink:"sisli-vizon-hotel-sisli"
+  },
+  { 
+    projectTitle:"Lamec Hotel", 
+    projectSubtitle:"Gebze", 
+    projectImage:"lamec.jpeg", 
+    projectLink:"lamec-hotel-gebze"
+  },
+  {
+    projectTitle:"Retaj Termal Hotel", 
+    projectSubtitle:"Yalova", 
+    projectImage:"retaj.jpeg", 
+    projectLink:"retaj-termal-hotel-yalova"
+  },
+  {
+    projectTitle:"Asia Artemis Hotel", 
+    projectSubtitle:"Ataşehir", 
+    projectImage: "proje1.png",
+    projectLink: "asia-artemis-hotel-atasehir"
+  },
+  {
+    projectTitle:"Asia Royal Suite Hotel", 
+    projectSubtitle:"Maltepe", 
+    projectImage:"asia_royal_suite_maltepe_mobilya_erturk.jpeg", 
+    projectLink:"asia-royal-suite-maltepe"
+  },
+  {
+    projectTitle:"Caliente Garden", 
+    projectSubtitle:"Polonezköy", 
+    projectImage:"caliente-garden-polonezkoy/caliente_garden_polonezkoy_mobilya_erturk_3.jpeg", 
+    projectLink:"caliente-garden-polonezkoy"
+  },
+  {
+    projectTitle:"Dov Hotel", 
+    projectSubtitle:"Manisa", 
+    projectImage:"dov-otel-manisa/dov_otel_manisa_mobilya_erturk_5.png", 
+    projectLink:"dov-otel-manisa"
+  },
+  {
+    projectTitle:"Grand Körfez Hotel", 
+    projectSubtitle:"Gebze", 
+    projectImage:"grand-korfez-hotel-gebze/grand_korfez_hotel_gebze_4.jpeg", 
+    projectLink:"grand-korfez-hotel-gebze"
+  },
+  {
+    projectTitle:"Myy Homes Hotel", 
+    projectSubtitle:"Pendik", 
+    projectImage:"myy-homes-pendik/myy_homes_pendik_mobilya_erturk_1.jpeg", 
+    projectLink:"myy-homes-pendik"
+  },
+  {
+    projectTitle:"Northstar Hotel", 
+    projectSubtitle:"Bayramoğlu", 
+    projectImage:"northstar-hotel-bayramoglu/north-star-resort-hotel-bayramoglu.jpeg", 
+    projectLink:"northstar-hotel-bayramoglu"
+  },
+  {
+    projectTitle:"Old City Hotel", 
+    projectSubtitle:"Sultanahmet", 
+    projectImage:"old_city_hotel_sultanahmet_istanbul_mobilya_erturk.jpeg", 
+    projectLink:"old-city-hotel-sultanahmet"
+  },
+  {
+    projectTitle:"Salon Selay Düğün Salonu", 
+    projectSubtitle:"İçerenköy", 
+    projectImage:"salon_serenay_erturk_mobilya.jpeg", 
+    projectLink:"salon-selay-dugun-salonu-icerenkoy"},
+];
+
+
+</script>
+
+
+<div class=" flex flex-wrap md:flex-row text-center  mx-auto ">
+
+  {#each projects.slice(0, limit) as project}
+
+
+  <div class=" p-2 md:basis-1/3  mb-10 ">
+    <a href="/{project.projectLink}">
+      <img src="/{project.projectImage}" alt="" class="rounded-lg ">
+      <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif "> {project.projectTitle} <br> {project.projectSubtitle}</h2>
+    </a>
   </div>
-  <div class="relative p-2 mb-10">
-   <a href="/lamec-hotel-gebze"> <img src="lamec.jpeg" alt="" class="rounded-lg "></a>
-    <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif "><a href="/lamec-hotel-gebze">Lamec Hotel <br> Gebze</a></h2>
-  </div>
-  <div class="relative p-2 mb-10">
-    <a href="retaj-termal-hotel-yalova"><img src="retaj.jpeg" alt="" class="rounded-lg "></a>
-    <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif "><a href="/retaj-termal-hotel-yalova">Retaj Termal Hotel <br> Yalova</a></h2>
-   </div>
-  </div>
-  <div class="container flex flex-col md:flex-row text-center  mx-auto ">
-    <div class="relative p-2  mb-10 b ">
-    <a href="/myy-homes-pendik"><img src="myy-homes-pendik/myy_homes_pendik_mobilya_erturk_1.jpeg" alt="" class="rounded-lg "></a>
-    <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif "><a href="/myy-homes-pendik"> MYY Homes Hotel <br> Pendik</a></h2>
-  </div>
-   <div class="relative p-2 mb-10">
-    <a href="/grand-korfez-hotel-gebze"> <img src="grand-korfez-hotel-gebze/grand_korfez_hotel_gebze_4.jpeg" alt="" class="rounded-lg "></a>
-    <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif "><a href="/grand-korfez-hotel-gebze">Grand Körfez Hotel <br> Gebze</a></h2>
-  </div>
-  <div class="relative p-2 mb-10">
-    <a href="/sisli-vizon-hotel-sisli"><img src="sisli_vizon_hotel_mobilya_dekorasyon_erturk_mobilya.jpeg" alt="" class="rounded-lg "></a>
-    <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif "><a href="/sisli-vizon-hotel-sisli">Vizon Hotel <br>Şişli</a></h2>
-  </div>
-  </div>
-  <div class="container flex flex-col md:flex-row text-center  mx-auto ">
-    <div class="relative p-2  mb-10 b ">
-    <a href="/salon-selay-dugun-salonu-icerenkoy"><img src="salon_serenay_erturk_mobilya.jpeg" alt="" class="rounded-lg "></a>
-    <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif "><a href="/salon-selay-dugun-salonu-icerenkoy">Selay Düğün Salonu <br> İçerenköy</a></h2>
-  </div>
-  <div class="relative p-2 mb-10">
-    <a href="/old-city-hotel-sultanahmet"><img src="old_city_hotel_sultanahmet_istanbul_mobilya_erturk.jpeg" alt="" class="rounded-lg "></a>
-    <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif "><a href="/old-city-hotel-sultanahmet">Old City Hotel <br> Sultanahmet</a></h2>
-  </div>
-  <div class="relative p-2 mb-10">
-   <a href="/asia-royal-suite-maltepe"><img src="asia_royal_suite_maltepe_mobilya_erturk.jpeg" alt="" class="rounded-lg "></a>
-   <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif "><a href="/asia-royal-suite-maltepe">Asia Royal Suite Hotel <br> Maltepe</a></h2>
-  </div>
-  </div>
-  <div class="container flex flex-col md:flex-row text-center  mx-auto ">
-    <div class="relative p-2  mb-10 b ">
-    <a href="/northstar-hotel-bayramoglu"><img src="northstar-hotel-bayramoglu/north-star-resort-hotel-bayramoglu.jpeg" alt="" class="rounded-lg "></a>
-    <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif "><a href="/northstar-hotel-bayramoglu">North Star Hotel <br> Bayramoğlu</a></h2>
-  </div>
-  <div class="relative p-2 mb-10">
-    <a href="/caliente-garden-polonezkoy"><img src="caliente-garden-polonezkoy/caliente_garden_polonezkoy_mobilya_erturk_3.jpeg" alt="" class="rounded-lg "></a>
-    <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif "><a href="/caliente-garden-polonezkoy">Caliente Garden <br> Polonezköy</a></h2>
-  </div>
-  <div class="relative p-2 mb-10">
-   <a href="/dov-otel-manisa"><img src="dov-otel-manisa/dov_otel_manisa_mobilya_erturk_5.png" alt="" class="rounded-lg "></a>
-   <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif "><a href="/dov-otel-manisa">Dov Hotel <br> Manisa</a></h2>
-  </div>
+  
+  {/each}
+  
   </div>

@@ -1,26 +1,26 @@
     <div class="flex w-full min-h-screen justify-center items-center bg-white-500 mt-20 mb-20">  
          <div 
-         class="bg-gray-300 w-full flex-col space-y-6 max-w-4xl p-8 rounded-xl shadow-lg text-gray-700"
+         class="bg-gray-900 w-full flex-col space-y-6 max-w-4xl p-8 rounded-xl shadow-lg text-gray-700"
          >
-         <div class="flex flex-col justify-between space-y-8"> 
+         <div class="flex flex-col justify-between space-y-8 text-amber-400"> 
 
             <div>
                 <h1 class="font-bold text-4xl tracking-wide">İletişim Formu</h1>
-                <p class="pt-2 text-sm"> Bizimle iletişime geçebilmek için lütfen gerekli alanları doldurunuz</p>
+                <p class="pt-2 text-sm "> Bizimle iletişime geçebilmek için lütfen gerekli alanları doldurunuz</p>
             </div>
             <div>
             <div class="inline-flex space-x-2 items-center">
                 <i name="call" class="fas fa-phone-square-alt text-xl"></i>
-                <a href="/"><span class="ml-2">0262 658 29 23</span></a>
+                <a href="/"><span class="ml-2 ">0262 658 29 23</span></a>
             </div>
         </div>
             <div class="inline-flex space-x-2 items-center">
                 <i name="email" class="fas fa-envelope text-xl"></i>
-                <a href="/"><span class="ml-2">info@mobilyaerturk.com</span></a>
+                <a href="/"><span class="ml-2 ">info@mobilyaerturk.com</span></a>
             </div>
             <div>
                 <div class="inline-flex space-x-2 items-center">
-                    <img src="https://img.icons8.com/material-sharp/22/000000/marker.png" alt=""/>
+                    <img src="https://img.icons8.com/material-sharp/22/000000/marker.png" alt="" class=""/>
                     <a href="/"><span class="ml-2">Cumhuriyet Mh. Namık Kemal Cd.
                         No: 53/F Çayırova – Kocaeli</span></a>
                 </div>
