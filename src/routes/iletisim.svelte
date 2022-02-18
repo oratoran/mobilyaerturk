@@ -20,7 +20,7 @@
             </div>
             <div>
                 <div class="inline-flex space-x-2 items-center">
-                    <img src="https://img.icons8.com/material-sharp/22/000000/marker.png" alt="" class=""/>
+                    <img src="https://img.icons8.com/material-sharp/22/000000/marker.png" alt="" class="bg-amber-400" />
                     <a href="/"><span class="ml-2">Cumhuriyet Mh. Namık Kemal Cd.
                         No: 53/F Çayırova – Kocaeli</span></a>
                 </div>
