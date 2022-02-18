@@ -11,7 +11,7 @@
   <div class="container flex flex-col  mx-auto border-4 pt-10 mt-20">
     <img src="/erturk_mobilya_uretim_yuksek_kalite_ahsap.jpeg" class="w-2/4 m-4 self-center" alt="">
     <h2 class="font-serif flex md:flex-col m-4 opacity-60 italic text-2xl self-center ">Ne yapıyoruz</h2>
-  <p class="text-left  m-10 mt-6 p-4 ml-4">İnovatif tasarım çizgilerini takip ederek yatak odaları, yemek odaları, mutfak, banyo, TV üniteleri ve mobilya aksesuarlarını kalite standartlarına uygun olarak üretmekteyiz. Mobilya üretiminde mdflam, ağaç kaplama, lake, ahşap ve aksesuar ürünlerini müşterinin ihtiyaçlarına göre özenle seçiyor ve yüksek kalitede uyguluyoruz.</p>
+  <p class="text-left p-4">İnovatif tasarım çizgilerini takip ederek yatak odaları, yemek odaları, mutfak, banyo, TV üniteleri ve mobilya aksesuarlarını kalite standartlarına uygun olarak üretmekteyiz. Mobilya üretiminde mdflam, ağaç kaplama, lake, ahşap ve aksesuar ürünlerini müşterinin ihtiyaçlarına göre özenle seçiyor ve yüksek kalitede uyguluyoruz.</p>
  
 </div>
 
@@ -20,7 +20,7 @@
 <div class="flex flex-col  px-6 mx-auto border-4 container mt-20 mb-20">
  <img src="/nedenbiz.png" class="w-2/4 m-4 self-center" alt="">
  <h2 class="font-serif flex md:flex-col m-4 opacity-60 italic text-2xl self-center">Neden Biz</h2>
-  <p class="text-left  m-2 mt-6 p-4 ml-4">Birçok farklı müşteri grubundan edindiğimiz deneyimlerle sektörde uzun yıllardır hizmet vermekteyiz. Müşteri mağduriyeti oluşmaması için de planlamadan montaja kaliteyi düşürmeden belli bir düzeyde üretim yapmaktayız. Montaj aşamasında titizlikle uygulanan mobilyalar, uzun yıllar keyifle kullanabileceğiniz ürünlere dönüşmektedir.</p>
+  <p class="text-left p-4">Birçok farklı müşteri grubundan edindiğimiz deneyimlerle sektörde uzun yıllardır hizmet vermekteyiz. Müşteri mağduriyeti oluşmaması için de planlamadan montaja kaliteyi düşürmeden belli bir düzeyde üretim yapmaktayız. Montaj aşamasında titizlikle uygulanan mobilyalar, uzun yıllar keyifle kullanabileceğiniz ürünlere dönüşmektedir.</p>
   </div>
 
 
