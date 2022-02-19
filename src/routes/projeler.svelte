@@ -3,8 +3,8 @@
 </script>
 
 
-<div class="p5 h-30 relative opacity-50  m-[90px] text-center">
-    <h3 class="text-3xl pb-4 font-serif self-center text-center">Referanslarımız</h3>
+<div class=" opacity-50 mb-10 mt-10 text-center">
+    <h3 class="text-3xl font-serif">Referanslarımız</h3>
     <!-- svelte-ignore a11y-missing-content -->
     <a href="/projeler"></a>
 </div>

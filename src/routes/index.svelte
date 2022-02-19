@@ -61,7 +61,7 @@
     <p class="text-left lg:text-center">    50 yıla yakın tecrübesiyle, banka, otel, zincir cafe ve restaurant dekorasyonlarıyla birlikte, mutfak, banyo, ev dekorasyonu ve tadilat işlerini de müşteri beklentilerine uygun olarak başarıyla gerçekleştirmekteyiz.
     </p>
     
-<p class="text-left lg:text-center">    İşlevsellik, kalite ve müşteri memnuniyetini ilke edinen firmamız yaşam alanlarına mutluluk getirmeye devam etmektedir.
+<p class="text-left lg:text-center">   İşlevsellik, kalite ve müşteri memnuniyetini ilke edinen firmamız yaşam alanlarına mutluluk getirmeye devam etmektedir.
 </p>  
   </div>
 </section>
