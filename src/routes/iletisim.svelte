@@ -21,14 +21,14 @@
             <div>
                 <div class="inline-flex space-x-2 items-center">
                     <img src="https://img.icons8.com/material-sharp/22/000000/marker.png" alt="" class="bg-amber-400" />
-                    <a href="https://goo.gl/maps/ZXydbT9FshRFDZYP8"><span class="ml-2">Cumhuriyet Mh. Namık Kemal Cd.
+                    <a href="https://goo.gl/maps/gGgcv3P9PdB4G9jBA"><span class="ml-2">Cumhuriyet Mh. Namık Kemal Cd.
                         No: 53/F Çayırova – Kocaeli</span></a>
                 </div>
             </div>
-            <div class="bg-white rounded-lg shadow-lg p-8 text-gray-600">
+            <div class="bg-white rounded-lg shadow-lg">
               
                 <!-- svelte-ignore a11y-missing-attribute -->
-                <div class="flex self-center items-center">
+                <div class=" flex self-center items-center">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.508320407981!2d29.373761716241773!3d40.86071757931596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cad8d947de9f83%3A0xc3b26e2ab7ac5d71!2sCumhuriyet%2C%20Nam%C4%B1k%20Kemal%20Cd.%20No%3A53%2C%2041420%20%C3%87ay%C4%B1rova%2FKocaeli!5e0!3m2!1sen!2str!4v1644761467791!5m2!1sen!2str" width="770" height="400" style="border:0;" allowfullscreen="" loading="lazy" class="mt-0"></iframe>
             </div>
 
