@@ -41,15 +41,15 @@
 
 <div class="flex flex-col md:flex-row text-center px-6">
   <div class="px-4 pb-16 md:pb-4">
-    <img class="rounded-full" src="/mimari_planlama2.png" alt="">
+    <img class="rounded-full" src="/erturk_mobilya_tasarim.jpeg" alt="">
     <h3 class="text-2xl text-zinc-600 font-serif mt-4">Mimari Planlama</h3>
   </div>
   <div class="px-4 pb-16 md:pb-4">
-    <img class="rounded-full" src="/mobilya_uretim.jpeg" alt="">
+    <img class="rounded-full" src="/erturk_mobilya_montaj.jpeg" alt="">
     <h3 class="text-2xl text-zinc-600 font-serif mt-4">Mobilya Üretim</h3>
   </div>
   <div class="px-4 pb-16 md:pb-4">
-    <img class="rounded-full" src="/montaj.jpeg" alt="">
+    <img class="rounded-full" src="/erturk_mobilya_uretim.jpeg" alt="">
     <h3 class="text-2xl  text-zinc-600 font-serif mt-4">Montaj</h3>
   </div>
 </div>
