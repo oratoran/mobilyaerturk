@@ -7,8 +7,5 @@
 </script>
 
 <Header />
-
-<slot /> 
-
-
+  <slot /> 
 <Footer />

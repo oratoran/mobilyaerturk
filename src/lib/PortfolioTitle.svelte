@@ -4,9 +4,9 @@
     export let coverImage = 'proje1.png';
 </script>
 
-<div class="justify-center flex">
-    <h1 class="text-center font-mono mt-10 mb-6 sm:text-xl xl:text-3xl rounded-lg w-1/2">{title}<br/>{subtitle}</h1>
-    </div>
-    <div class="flex justify-center mb-10">
-    <img src="/{coverImage}" alt="" class="w-3/4 rounded-xl shadow-xl">
+<div class="justify-center flex-col px-3 md:w-[1440px] mx-auto py-16">
+    <h1 class="text-center mt-2 text-3xl font-serif">{title}</h1>
+    <h2 class="text-center mt-2 text-2xl font-serif pb-16">{subtitle}</h2>
+    <img src="/{coverImage}" alt="" class="rounded-xl shadow-xl md:w-1/2 mx-auto">
 </div>
+

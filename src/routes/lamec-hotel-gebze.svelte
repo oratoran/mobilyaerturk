@@ -25,7 +25,7 @@
 <Galery {images}/>
 
 <svelte:head>
-    <title>{title}</title>
+    <title>{title} Mobilya ve Dekorasyon - Ertürk Mobilya </title>
     <meta name="description" content="{title} proje sayfası">
 </svelte:head>
 

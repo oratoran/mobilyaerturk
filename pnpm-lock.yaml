@@ -4,6 +4,7 @@ specifiers:
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
   autoprefixer: ^10.4.2
+  baguettebox.js: ^1.11.1
   eslint: ^8.9.0
   eslint-plugin-svelte3: ^3.4.0
   postcss: ^8.4.6
@@ -16,11 +17,12 @@ specifiers:
   tailwindcss: ^3.0.23
 
 dependencies:
+  baguettebox.js: 1.11.1
   swiper: 8.0.6
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.17
-  '@sveltejs/kit': 1.0.0-next.272_svelte@3.46.4
+  '@sveltejs/kit': 1.0.0-next.278_svelte@3.46.4
   autoprefixer: 10.4.2_postcss@8.4.6
   eslint: 8.9.0
   eslint-plugin-svelte3: 3.4.0_eslint@8.9.0+svelte@3.46.4
@@ -148,8 +150,8 @@ packages:
       esbuild: 0.13.15
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.272_svelte@3.46.4:
-    resolution: {integrity: sha512-QKbUxInDup2x8/0S8noOzDfUypYnOl2G9BfSl6QOHdCMa9LoAu3tHW8PvkdjQxzz075rhZJvHDf2lcXENeO6Sg==}
+  /@sveltejs/kit/1.0.0-next.278_svelte@3.46.4:
+    resolution: {integrity: sha512-WT93Wnu05X9WG9BMMk/dj0gy6R7iXm9aXRDVgmIl9z8jT2ukejgmkhi5IwBYrK0OMIUALRVfukn+iy+srPc91Q==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -299,6 +301,10 @@ packages:
       postcss: 8.4.6
       postcss-value-parser: 4.2.0
     dev: true
+
+  /baguettebox.js/1.11.1:
+    resolution: {integrity: sha512-0HnUVs+xaqwQOVbfi0kwZnZ1fJNWE5vJLCoCAtgQBtPmOJa1fhN8gubaBFOBGDkQy/vz6PWSr7B3WilhQKjyeQ==}
+    dev: false
 
   /balanced-match/1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}

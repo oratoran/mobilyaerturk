@@ -81,15 +81,15 @@ let projects = [
 </script>
 
 
-<div class=" flex flex-wrap md:flex-row text-center  mx-auto ">
+<div class=" flex flex-row flex-wrap text-center  mx-auto ">
 
   {#each projects.slice(0, limit) as project}
 
 
-  <div class=" p-2 md:basis-1/3  mb-10 ">
-    <a href="/{project.projectLink}">
-      <img src="/{project.projectImage}" alt="" class="rounded-lg ">
-      <h2 class="text-center opacity-60 text-black-200 mt-2 text-2xl font-serif "> {project.projectTitle} <br> {project.projectSubtitle}</h2>
+  <div class="flex-auto md:w-1/3 p-4">
+    <a href="/{project.projectLink}" class="">
+      <img src="/{project.projectImage}" alt="" class="rounded-lg">
+      <h2 class="text-center mt-2 text-2xl font-serif "> {project.projectTitle} <br> {project.projectSubtitle}</h2>
     </a>
   </div>
   
