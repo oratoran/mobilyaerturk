@@ -1,6 +1,6 @@
 
 <h1 class="text-center text-3xl font-serif py-16">Ertürk Mobilya</h1>
-<section class="md:w-[1440px] mx-auto flex flex-col md:flex-row py-8 font-serif text-xl">
+<section class="md:max-w-[1440px] mx-auto flex flex-col md:flex-row py-8 font-serif text-xl">
   <div class="md:basis-1/3 p-4">
     <img src="/erturk-mobilya.jpeg" class="rounded-3xl" alt="Ertürk Mobilya Tecrübe">
     <h2 class="text-2xl py-6">Yarım asırlık tecrübe</h2>

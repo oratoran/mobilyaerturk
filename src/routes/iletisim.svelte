@@ -1,5 +1,5 @@
 <h1 class="text-3xl font-serif text-center my-16">İletişim Bilgilerimiz</h1>
-    <section class="flex space-x-3 space-y-6 flex-wrap md:w-[1440px] justify-between mx-auto py-8 ">
+    <section class="flex space-x-3 space-y-6 flex-wrap md:max-w-[1440px] justify-between mx-auto py-8 ">
         <div class="flex-auto bg-gray-900 p-8 rounded-xl shadow-lg text-amber-400 py-24 m-4">
             <h2 class="text-2xl">Aşağıdaki bilgilerle bize hızlıca ulaşabilirsiniz.</h2>
             <div class="flex flex-col my-6 space-y-6">

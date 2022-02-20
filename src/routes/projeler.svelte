@@ -3,7 +3,7 @@
 </script>
 
 <h1 class="text-3xl font-serif text-center my-16">Biten Projeler / Referanslarımız</h1>
-<section class="md:w-[1440px] mx-auto py-8">
+<section class="md:max-w-[1440px] mx-auto py-8">
     <Projeler />
 </section>
 

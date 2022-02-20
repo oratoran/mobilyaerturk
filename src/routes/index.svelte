@@ -31,7 +31,7 @@
   </Swiper>
 </section>
 
-<section class="md:w-[1440px] mx-auto py-16">
+<section class="md:max-w-[1440px] mx-auto py-16">
   <div class="text-center font-serif pb-8">
     <h1 class="text-3xl text-zinc-600">ERTÜRK MOBİLYA</h1>
     <p class="text-2xl p-2 italic" >1970'den günümüze işimizi tutku ile yapıyoruz...</p>

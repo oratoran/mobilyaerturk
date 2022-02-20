@@ -9,7 +9,7 @@
 </script>
 
 
-<div class="gallery md:columns-3 gap-8 px-3 mb-10 md:w-[1440px] mx-auto">
+<div class="gallery md:columns-3 gap-8 px-3 mb-10 md:max-w-[1440px] mx-auto">
     {#each images as image}
         <a href="/{image}" data-caption="Ertürk Mobilya">
             <img src="/{image}" alt="" class="w-full h-full aspect-auto py-4 rounded-3xl">
