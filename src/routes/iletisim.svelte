@@ -18,7 +18,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex-auto w-1/2 my-auto">
+        <div class="flex-auto w-1/2 my-auto mx-auto">
             <!-- svelte-ignore a11y-missing-attribute -->
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.508320407981!2d29.373761716241773!3d40.86071757931596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cad8d947de9f83%3A0xc3b26e2ab7ac5d71!2sCumhuriyet%2C%20Nam%C4%B1k%20Kemal%20Cd.%20No%3A53%2C%2041420%20%C3%87ay%C4%B1rova%2FKocaeli!5e0!3m2!1sen!2str!4v1644761467791!5m2!1sen!2str" style="border:0;" allowfullscreen="" loading="lazy" class="w-full h-[400px] mx-4"></iframe>
         </div>

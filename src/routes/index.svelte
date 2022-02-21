@@ -40,18 +40,18 @@
     <p class="text-left lg:text-center">   İşlevsellik, kalite ve müşteri memnuniyetini ilke edinen firmamız yaşam alanlarına mutluluk getirmeye devam etmektedir.</p>  
   </div>
 
-  <div class="flex flex-col md:flex-row text-center space-x-8">
-    <div class="flex-auto md:w-1/3">
+  <div class="flex flex-col md:flex-row text-center">
+    <div class="flex-auto md:w-1/3 ml-3 mr-3">
       <img class="rounded-3xl  border-4 border-yellow-800" src="/erturk_mobilya_tasarim.jpeg" alt="Ertürk Mobilya Mimari Planlama">
       <h2 class="text-2xl text-yellow-800 font-serif mt-4">Mimari Planlama</h2>
       <p>Müşteri beklentilerine göre istenen işin modellenmesi, kullanılan malzeme türüne ve detaylarına göre fiyatlandırılması, üretim ve uygulama dahil sürelerin belirlenmesini kapsar.</p>
     </div>
-    <div class="flex-auto md:w-1/3">
+    <div class="flex-auto md:w-1/3 ml-3 mr-3">
       <img class="rounded-3xl  border-4 border-yellow-800" src="/erturk_mobilya_montaj.jpeg" alt="Ertürk Mobilya Mobilya Üretimi">
       <h2 class="text-2xl text-yellow-800 font-serif mt-4">Mobilya Üretimi</h2>
       <p>Mimari planlaması yapılan proje, söz verilen tarihlere kadar yüksek teknolojili makinalar yardımıyla titizlikle üretilir.</p>
     </div>
-    <div class="flex-auto md:w-1/3">
+    <div class="flex-auto md:w-1/3 ml-3 mr-3">
       <img class="rounded-3xl  border-4 border-yellow-800" src="/erturk_mobilya_uretim.jpeg" alt="Ertürk Mobilya Mobilya Montajı">
       <h2 class="text-2xl  text-yellow-800 font-serif mt-4">Mobilya Montajı</h2>
       <p>Üretimi tamamlanan mobilya ürünleri titizlikle kurulumu yapılarak müşterilere teslim edilir.</p>
