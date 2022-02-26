@@ -1,0 +1,15 @@
+{
+    "redirects": [
+      { 
+        "source": "/portfolio/lamec-hotel-gebze/",
+        "destination": "https://www.mobilyaerturk.com/lamec-hotel-gebze/", 
+        "permanent": true
+      },
+      { 
+        "source": "/portfolio/northstar-hotel-bayramoglu/",
+        "destination": "https://www.mobilyaerturk.com/northstar-hotel-bayramoglu/", 
+        "permanent": true
+      }
+      
+    ]
+  }
