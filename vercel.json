@@ -2,12 +2,67 @@
     "redirects": [
       { 
         "source": "/portfolio/lamec-hotel-gebze/",
-        "destination": "https://www.mobilyaerturk.com/lamec-hotel-gebze/", 
+        "destination": "https://www.mobilyaerturk.com/lamec-hotel-gebze", 
         "permanent": true
       },
       { 
         "source": "/portfolio/northstar-hotel-bayramoglu/",
-        "destination": "https://www.mobilyaerturk.com/northstar-hotel-bayramoglu/", 
+        "destination": "https://www.mobilyaerturk.com/northstar-hotel-bayramoglu", 
+        "permanent": true
+      },
+      { 
+        "source": "/portfolio/asia-artemis-hotel-atasehir/",
+        "destination": "https://www.mobilyaerturk.com/asia-artemis-hotel-atasehir", 
+        "permanent": true
+      },
+      { 
+        "source": "/portfolio/old-city-hotel-sultanahmet/",
+        "destination": "https://www.mobilyaerturk.com/old-city-hotel-sultanahmet", 
+        "permanent": true
+      },
+      { 
+        "source": "/portfolio/dov-otel-manisa/",
+        "destination": "https://www.mobilyaerturk.com/dov-otel-manisa", 
+        "permanent": true
+      },
+      { 
+        "source": "/portfolio/myy-homes-pendik/",
+        "destination": "https://www.mobilyaerturk.com/myy-homes-pendik", 
+        "permanent": true
+      },
+      { 
+        "source": "/portfolio/caliente-garden-polonezkoy/",
+        "destination": "https://www.mobilyaerturk.com/caliente-garden-polonezkoy", 
+        "permanent": true
+      },
+      { 
+        "source": "/portfolio/salon-selay-dugun-salonu-icerenkoy/",
+        "destination": "https://www.mobilyaerturk.com/salon-selay-dugun-salonu-icerenkoy", 
+        "permanent": true
+      },
+      { 
+        "source": "/portfolio/asia-royal-suite-maltepe/",
+        "destination": "https://www.mobilyaerturk.com/asia-royal-suite-maltepe", 
+        "permanent": true
+      },
+      { 
+        "source": "/portfolio/grand-korfez-hotel-gebze/",
+        "destination": "https://www.mobilyaerturk.com/grand-korfez-hotel-gebze", 
+        "permanent": true
+      },
+      { 
+        "source": "/portfolio_categories/otel/",
+        "destination": "https://www.mobilyaerturk.com/projeler", 
+        "permanent": true
+      },
+      { 
+        "source": "/portfolio_categories/dugun-salonu/",
+        "destination": "https://www.mobilyaerturk.com/projeler", 
+        "permanent": true
+      },
+      { 
+        "source": "/erturk-mobilya/erturk_mobilya_uretim_neden/",
+        "destination": "https://www.mobilyaerturk.com/hakkimizda", 
         "permanent": true
       }
       
