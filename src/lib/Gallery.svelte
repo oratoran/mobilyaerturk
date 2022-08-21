@@ -8,14 +8,13 @@
     });  
 </script>
 
-
-<div class="gallery md:columns-3 gap-8 px-3 mb-10 md:max-w-[1440px] mx-auto">
+<div class="flex flex-wrap justify-start items-center md:max-w-[1440px] mb-10 mx-auto gallery">
     {#each images as image}
-        <a href="/{image}" data-caption="Ertürk Mobilya">
-            <img src="/{image}" alt="" class="w-full h-full aspect-auto py-4 rounded-3xl">
+        <a href="/{image}" data-caption="Ertürk Mobilya" class="w-1/3">
+            <img src="/{image}" alt="" class=" p-4 rounded-3xl">
         </a>
     {/each}
-</div>
+  </div>
 
 <style>
     @import 'baguettebox.js/dist/baguetteBox.min.css';
